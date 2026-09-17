@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TADaManager Logo & Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Center group -->
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="64"
+        android:translateY="64">
+
+        <!-- Outer TV / Screen Shape with YouTube gradient -->
+        <path
+            android:pathData="M140,96h232c44.18,0 80,35.82 80,80v160c0,44.18 -35.82,80 -80,80H140c-44.18,0 -80,-35.82 -80,-80V176c0,-44.18 35.82,-80 80,-80z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="60"
+                    android:startY="96"
+                    android:endX="452"
+                    android:endY="416"
+                    android:type="linear">
+                    <item android:color="#FF0033" android:offset="0.0" />
+                    <item android:color="#E60023" android:offset="0.5" />
+                    <item android:color="#9C27B0" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Modern Play Icon Symbol -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M216,192 L340,256 L216,320 Z" />
+
+        <!-- TADa Sparkle Star (Top Right) -->
+        <path
+            android:pathData="M390,70 L402,106 L438,118 L402,130 L390,166 L378,130 L342,118 L378,106 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="342"
+                    android:startY="70"
+                    android:endX="438"
+                    android:endY="166"
+                    android:type="linear">
+                    <item android:color="#FFD700" android:offset="0.0" />
+                    <item android:color="#FF9800" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Mini Accent Sparkle (Bottom Left) -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M90,360 L96,380 L116,386 L96,392 L90,412 L84,392 L64,386 L84,380 Z" />
+
+    </group>
+</vector>
